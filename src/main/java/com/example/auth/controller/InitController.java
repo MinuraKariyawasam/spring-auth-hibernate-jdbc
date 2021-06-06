@@ -13,7 +13,6 @@ import java.util.*;
 import com.example.auth.model.User;
 import com.example.auth.repository.UserRepository;
 import com.example.auth.service.UserService;
-import com.example.demo.model.Person;
 
 @RestController
 @RequestMapping("api/v1")
