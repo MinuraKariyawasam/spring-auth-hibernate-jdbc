@@ -10,7 +10,7 @@ services:
       - "8080:8080"
     depends_on:
       - mysqldb
-      
+      # mysql service
  mysqldb:
     image: mysql:8.0
     restart: always
